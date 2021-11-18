@@ -17,3 +17,26 @@ body{
     background-color: #ff5a00;
     color: #fff;
 }
+
+.title-section{
+    margin-top: 70px;
+}
+
+.quotes-section{
+    margin-top: 40px;
+}
+
+.card{
+    background-color: #1B1B1B;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btn{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.card-footer {
+    font-size: 12px;
+}
