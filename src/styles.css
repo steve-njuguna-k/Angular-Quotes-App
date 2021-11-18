@@ -1,21 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-color: #000;
+    background-color: #0D1117;
     color: #fff;
     font-family: "Fondamento",Arial,sans-serif;
 }
 
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
 .navbar{
-    background-color: #1B1B1B;
+    background-color: #161B22;
+    border-color: #30363d;
 }
 
 .btn-orange{
-    background-color: #F66506;
+    background-color: #01AFC5;
     color: #fff;
 }
 
 .btn-orange:hover{
-    background-color: #ff5a00;
+    background-color: #01AFC5;
     color: #fff;
 }
 
@@ -28,16 +39,51 @@ body{
 }
 
 .card{
-    background-color: #1B1B1B;
+    background-color: #161b22;
+    border-color: #30363d;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
+}
+
+.card-title{
+    font-family: "Fondamento",Arial,sans-serif;
+}
+
+.footer {
+    font-size: 12px;
+    margin-bottom: 25px;
 }
 
 .btn{
     margin-right: 5px;
     margin-left: 5px;
+    border-radius: 8px;
 }
 
-.card-footer {
+.btn-link{
+    color: #01AFC5;
+    text-decoration: none;
+}
+
+.btn-link:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-dark{
+    background-color: #161b22;
+    border-color: #30363d;
+}
+
+.btn-dark{
+    background-color: #161b22;
+    border-color: #30363d;
+}
+
+.author{
     font-size: 12px;
+}
+
+.col-md-4{
+    margin-bottom: 30px;
 }
