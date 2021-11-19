@@ -9,7 +9,9 @@ import { Quotes } from 'src/app/models/quotes';
 export class QuotesComponent implements OnInit {
 
   quotes: Quotes[] = [
-    new Quotes(1, 'Living Life', 'You only live once, but if you do it right, once is enough', 'Mae West', 'Steve Njuguna', new Date(2021,11,19), 0, 0),
+    new Quotes(1, 'Living Life', 'You only live once, but if you do it right, once is enough', 'Mae West', 'Steve Njuguna', new Date(2021,10,15), 0, 0),
+    new Quotes(2, 'Money & Success', 'Money and success don’t change people; they merely amplify what is already there', 'Will Smith', 'Mark Otieno', new Date(2021,10,17), 0, 0),
+    new Quotes(3, 'Predictable Life', 'If life were predictable it would cease to be life, and be without flavor', 'Eleanor Roosevelt', 'June Mwende', new Date(2021,10,19), 0, 0),
   ];
 
   toggleDetails(index: any){
