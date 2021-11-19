@@ -65,6 +65,14 @@ a:hover{
     margin-right: 10px;
 }
 
+#likes{
+    color: rgba(40, 167, 69, 1);
+}
+
+#dislikes{
+    color: rgba(248, 81, 73, 1);
+}
+
 .btn-link{
     color: #00acee;
     text-decoration: none;
