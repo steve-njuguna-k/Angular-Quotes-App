@@ -1,16 +1,16 @@
 <div class="container-fluid">
-    <form>
+    <form (ngSubmit)= 'submitQuote()' #quoteForm ='ngForm'>
         <div class="form-group">
-            <input type="text" required class="form-control" name="name" id="name" placeholder="Your Name">
+            <input type="text" required class="form-control" name="postAuthor" id="postAuthor" placeholder="Your Name" [(ngModel)]="newQuote.postAuthor" #postAuthor='ngModel'>
         </div>
         <div class="form-group">
-            <input type="text" required class="form-control" name="q-name" id="q-name" placeholder="Quote Name">
+            <input type="text" required class="form-control" name="quoteTitle" id="quoteTitle" placeholder="Quote Name" [(ngModel)]="newQuote.quoteTitle" #quoteTitle='ngModel'>
         </div>
         <div class="form-group">
-            <textarea class="form-control" id="quote" rows="4" cols="50" placeholder="Quote" name="quote" required></textarea>
+            <textarea class="form-control" id="quoteDescription" rows="4" cols="50" placeholder="Quote" name="quoteDescription" [(ngModel)]="newQuote.quoteDescription" #quoteDescription='ngModel' required></textarea>
         </div>
         <div class="form-group">
-            <input type="text" required class="form-control" name="author" id="author" placeholder="Quote Author">
+            <input type="text" required class="form-control" name="quoteAuthor" id="quoteAuthor" placeholder="Quote Author" [(ngModel)]="newQuote.quoteAuthor" #quoteAuthor='ngModel'>
         </div>
         
         <div class="form-group">
