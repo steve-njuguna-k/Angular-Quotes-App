@@ -9,7 +9,7 @@ import { Quotes } from 'src/app/models/quotes';
 export class QuotesComponent implements OnInit {
 
   quotes: Quotes[] = [
-    new Quotes(1, 'Living Life', 'You only live once, but if you do it right, once is enough', 'Mae West', 'Steve Njuguna'),
+    new Quotes(1, 'Living Life', 'You only live once, but if you do it right, once is enough', 'Mae West', 'Steve Njuguna', new Date(2022,3,14), 6, 3),
   ];
 
   constructor() { }
