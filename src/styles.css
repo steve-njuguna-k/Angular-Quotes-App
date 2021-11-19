@@ -108,7 +108,7 @@ a:hover{
     color: #fff;
 }
 
-.form-control, .form-control:focus, .form-control:active {
+.form-control {
     display: block;
     width: 100%;
     height: calc(1.5em + 0.75rem + 2px);
@@ -122,4 +122,10 @@ a:hover{
     border: 1px solid #30363d;
     border-radius: 0.25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control:focus, .form-control:active {
+    color: #fff;
+    background-color: #0D1117;
+    border: 1px solid #30363d;
 }
