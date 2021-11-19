@@ -2,7 +2,7 @@
 body{
     background-color: #0D1117;
     color: #fff;
-    font-family: "Fondamento",Arial,sans-serif;
+    background-image: url("./assets/img/bg.jpg");
 }
 
 a{
@@ -18,6 +18,7 @@ a:hover{
 .navbar{
     background-color: #0D1117;
     border-color: #00acee;
+    background-image: url("./assets/img/bg.jpg");
 }
 
 .btn-yellow{
@@ -42,11 +43,10 @@ a:hover{
     background-color: #161b22;
     border-color: #30363d;
     color: #fff;
-    border-radius: 40px 0px 40px 0px;
+    border-radius: 40px 5px 40px 5px;
 }
 
 .card-title{
-    font-family: "Fondamento",Arial,sans-serif;
     color: #00acee;
 }
 
@@ -58,7 +58,7 @@ a:hover{
 .btn{
     margin-right: 5px;
     margin-left: 5px;
-    border-radius: 10px 0px 10px 0px;
+    border-radius: 10px 5px 10px 5px;
 }
 
 .btn-link{
@@ -94,7 +94,7 @@ a:hover{
 .modal-content{
     background-color: #161b22;
     border: 1px solid #30363d;
-    border-radius: 40px 0px 40px 0px;
+    border-radius: 40px 5px 40px 5px;
 }
 
 .close{
