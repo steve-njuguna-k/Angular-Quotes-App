@@ -17,17 +17,17 @@ a:hover{
 
 .navbar{
     background-color: #0D1117;
-    border-color: #fcb800;
+    border-color: #00acee;
 }
 
 .btn-yellow{
-    background-color: #fcb800;
-    color: #161B22;
+    background-color: #00acee;
+    color: #fff;
 }
 
 .btn-yellow:hover{
-    background-color: #fcb800;
-    color: #161B22;
+    background-color: #00acee;
+    color: #fff;
 }
 
 .title-section{
@@ -40,14 +40,14 @@ a:hover{
 
 .card{
     background-color: #161b22;
-    border-color: #fcb800;
+    border-color: #30363d;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 40px 0px 40px 0px;
 }
 
 .card-title{
     font-family: "Fondamento",Arial,sans-serif;
-    color: #fcb800;
+    color: #00acee;
 }
 
 .footer {
@@ -58,11 +58,11 @@ a:hover{
 .btn{
     margin-right: 5px;
     margin-left: 5px;
-    border-radius: 8px;
+    border-radius: 10px 0px 10px 0px;
 }
 
 .btn-link{
-    color: #fcb800;
+    color: #00acee;
     text-decoration: none;
     margin-bottom: 5px;
 }
@@ -83,4 +83,25 @@ a:hover{
 
 .col-md-4{
     margin-bottom: 30px;
+}
+
+.m-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.modal-content{
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 40px 0px 40px 0px;
+}
+
+.close{
+    color: #fff;
+    background-color: #30363d;
+}
+
+.close:hover{
+    color: #fff;
 }
