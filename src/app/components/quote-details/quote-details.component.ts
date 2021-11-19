@@ -12,6 +12,10 @@ export class QuoteDetailsComponent implements OnInit {
   quote!: Quotes;
   @Output() toDelete = new EventEmitter<boolean>();
 
+  likes(){
+    this.quote.likes+=1;
+  }
+
   quoteDelete(complete:boolean){
     this.toDelete.emit(complete);
   }

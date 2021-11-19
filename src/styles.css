@@ -60,7 +60,7 @@ a:hover{
     border-radius: 10px 3px 10px 3px;
 }
 
-#upvote, #downvote, #trash{
+#likes, #dislikes, #trash{
     margin-left: 10px;
     margin-right: 10px;
 }
