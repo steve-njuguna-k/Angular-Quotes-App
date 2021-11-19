@@ -58,7 +58,7 @@ a:hover{
 .btn{
     margin-right: 5px;
     margin-left: 5px;
-    border-radius: 10px 5px 10px 5px;
+    border-radius: 10px 3px 10px 3px;
 }
 
 .btn-link{
