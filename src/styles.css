@@ -16,18 +16,18 @@ a:hover{
 }
 
 .navbar{
-    background-color: #161B22;
-    border-color: #30363d;
+    background-color: #0D1117;
+    border-color: #fcb800;
 }
 
-.btn-orange{
-    background-color: #01AFC5;
-    color: #fff;
+.btn-yellow{
+    background-color: #fcb800;
+    color: #161B22;
 }
 
-.btn-orange:hover{
-    background-color: #01AFC5;
-    color: #fff;
+.btn-yellow:hover{
+    background-color: #fcb800;
+    color: #161B22;
 }
 
 .title-section{
@@ -40,13 +40,14 @@ a:hover{
 
 .card{
     background-color: #161b22;
-    border-color: #30363d;
+    border-color: #fcb800;
     color: #fff;
     border-radius: 20px;
 }
 
 .card-title{
     font-family: "Fondamento",Arial,sans-serif;
+    color: #fcb800;
 }
 
 .footer {
@@ -61,18 +62,14 @@ a:hover{
 }
 
 .btn-link{
-    color: #01AFC5;
+    color: #fcb800;
     text-decoration: none;
+    margin-bottom: 5px;
 }
 
 .btn-link:hover{
     color: #fff;
     text-decoration: none;
-}
-
-.btn-dark{
-    background-color: #161b22;
-    border-color: #30363d;
 }
 
 .btn-dark{
