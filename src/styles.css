@@ -21,7 +21,7 @@ a:hover{
     background-image: url("./assets/img/bg.jpg");
 }
 
-.btn-yellow{
+.btn-blue{
     background-color: #00acee;
     color: #fff;
 }
@@ -56,9 +56,12 @@ a:hover{
 }
 
 .btn{
-    margin-right: 5px;
-    margin-left: 5px;
     border-radius: 10px 3px 10px 3px;
+}
+
+#upvote, #downvote, #trash{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .btn-link{
@@ -103,4 +106,20 @@ a:hover{
 
 .close:hover{
     color: #fff;
+}
+
+.form-control, .form-control:focus, .form-control:active {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #0D1117;
+    background-clip: padding-box;
+    border: 1px solid #30363d;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
