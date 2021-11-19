@@ -21,6 +21,10 @@ a:hover{
     background-image: url("./assets/img/bg.jpg");
 }
 
+.logo-colour{
+    color: #00acee;
+}
+
 .btn-blue{
     background-color: #00acee;
     color: #fff;
