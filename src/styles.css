@@ -28,6 +28,11 @@ a:hover{
 
 .logo-colour{
     color: #00acee;
+    font-family: 'Fondamento', Arial, sans-serif;
+}
+
+.hero-colour{
+    color: #00acee;
 }
 
 .btn-blue{
@@ -58,6 +63,7 @@ a:hover{
 
 .card-title{
     color: #00acee;
+    font-family: 'Fondamento', Arial, sans-serif;
 }
 
 .footer {
