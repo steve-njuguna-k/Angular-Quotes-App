@@ -147,3 +147,8 @@ a:hover{
     background-color: #0D1117;
     border: 1px solid #30363d;
 }
+
+.date{
+    margin-top: 10px;
+    font-size: 12px;
+}
