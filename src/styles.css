@@ -81,11 +81,15 @@ a:hover{
 }
 
 #likes{
-    color: rgba(40, 167, 69, 1);
+    color: #03d87f ;
 }
 
 #dislikes{
-    color: rgba(248, 81, 73, 1);
+    color: #f5325c ;
+}
+
+#trash{
+    background-color: #f5325c ;
 }
 
 .btn-link{
