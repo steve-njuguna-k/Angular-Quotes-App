@@ -13,11 +13,11 @@ export class QuoteDetailsComponent implements OnInit {
   @Output() toDelete = new EventEmitter<boolean>();
 
   likes(){
-    this.quote.likes+=1;
+    this.quote.likes += 1;
   }
 
   dislikes(){
-    this.quote.dislikes+=1;
+    this.quote.dislikes += 1;
   }
 
   quoteDelete(complete:boolean){
