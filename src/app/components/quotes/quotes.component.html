@@ -48,7 +48,7 @@
                     </div>
                     <div class="footer text-center">
                         <button type="button" class="btn btn-sm btn-link" (click)='toggleDetails(i)'>There Is More...</button>
-                        <app-quote-details *ngIf='quote.showDetails' [quote]='quote' (toDelete) = 'quoteDelete($event,i)'></app-quote-details> 
+                        <app-quote-details *ngIf='quote.showDetails' [quote]='quote' (toDelete) = 'quoteDelete($event,i)'></app-quote-details>
                     </div>
                 </div>
             </div>
