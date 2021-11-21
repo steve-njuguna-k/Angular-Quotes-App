@@ -59,8 +59,10 @@ export class QuotesComponent implements OnInit {
   addNewQuote(quotes: any){
     let quoteLength = this.quotes.length;
     quotes.id = quoteLength + 1;
-    quotes.datePosted = new Date(quotes.datePosted)
-    this.quotes.push(quotes)
+    quotes.datePosted = new Date(quotes.datePosted);
+    this.quotes.push(quotes);
+    let confirmation = confirm(`Quote Added Successfully!`);
+    return confirmation;
   }
 
   constructor() { }
