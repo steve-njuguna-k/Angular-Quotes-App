@@ -14,18 +14,46 @@ export class QuotesComponent implements OnInit {
     new Quotes(3, 'Predictable Life', 'If life were predictable it would cease to be life, and be without flavor', 'Eleanor Roosevelt', 'June Mwende', new Date(2021,10,19), 0, 0),
   ];
 
+  getQuotes(){
+    return this.quotes;
+  }
+
+  upvote(index:any) {
+    this.quotes[index].likes ++;
+  }
+  downvote(index:any) {
+    this.quotes[index].dislikes  ++;
+  }
+
+  preNum!: number;
+  lastNum!: number;
+  counter!: number;
+
+  rankQuotes(){
+    this.preNum = 0
+    this.lastNum = 0
+
+    for(this.counter=0 ; this.counter < this.quotes.length; this.counter++) {
+      this.lastNum = this.quotes[this.counter].likes;
+      if(this.lastNum > this.preNum){
+        this.preNum = this.lastNum
+      }
+    }
+    return this.preNum
+  }
+
   toggleDetails(index: any){
     this.quotes[index].showDetails = !this.quotes[index].showDetails;
   }
 
-  quoteDelete(toDelete: boolean, index: any){
-    if (toDelete) {
-      let confirmDelete = confirm(`Are you sure you want to delete the quote '${this.quotes[index].quoteTitle}' by ${this.quotes[index].quoteAuthor}?`)
-
-      if (confirmDelete){
-        this.quotes.splice(index,1)
-      }
+  deleteQuote(quote:any){
+    if(this.getQuotes().indexOf(quote)>= 0){
+        let toDelete = confirm(`Are you sure you want to delete the quote '${this.quotes[this.quotes.indexOf(quote)].quoteDescription}' by '${this.quotes[this.quotes.indexOf(quote)].quoteAuthor}'?`)
+        if(toDelete){
+            this.getQuotes().splice(this.getQuotes().indexOf(quote),1);
+        }
     }
+    this.rankQuotes();
   }
 
   addNewQuote(quotes: any){
