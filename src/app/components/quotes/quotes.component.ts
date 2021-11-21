@@ -48,7 +48,7 @@ export class QuotesComponent implements OnInit {
 
   deleteQuote(quote:any){
     if(this.getQuotes().indexOf(quote)>= 0){
-        let toDelete = confirm(`Are you sure you want to delete the quote '${this.quotes[this.quotes.indexOf(quote)].quoteDescription}' by '${this.quotes[this.quotes.indexOf(quote)].quoteAuthor}'?`)
+        let toDelete = confirm(`Are you sure you want to delete the quote '${this.quotes[this.quotes.indexOf(quote)].quoteDescription}' by ${this.quotes[this.quotes.indexOf(quote)].quoteAuthor}?`)
         if(toDelete){
             this.getQuotes().splice(this.getQuotes().indexOf(quote),1);
         }
