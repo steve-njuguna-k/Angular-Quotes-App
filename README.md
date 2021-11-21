@@ -1,5 +1,5 @@
 # Angular Quotes App
-An Angular application that allows people to see quotes, up vote ,down vote on quotes and finally add their own quotes.
+An Angular application that allows people to see quotes, up vote ,down vote on quotes, add their own quotes and finally delete them as well.
 
 ![](https://github.com/steve-njuguna-k/Angular-Quotes-App/blob/master/src/assets/img/screenshot.PNG)
 
