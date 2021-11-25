@@ -25,21 +25,23 @@ export class QuotesComponent implements OnInit {
     this.quotes[index].dislikes  ++;
   }
 
-  preNum!: number;
-  lastNum!: number;
-  counter!: number;
+  initialLikes!: number;
+  pressedLikes!: number;
+  finalQuoteLikes!: number;
+  index!: number;
 
   rankQuotes(){
-    this.preNum = 0
-    this.lastNum = 0
+    this.initialLikes = 0
+    this.pressedLikes = 0
 
-    for(this.counter=0 ; this.counter < this.quotes.length; this.counter++) {
-      this.lastNum = this.quotes[this.counter].likes;
-      if(this.lastNum > this.preNum){
-        this.preNum = this.lastNum
+    for(this.index=0 ; this.index < this.quotes.length; this.index++) {
+      this.pressedLikes = this.quotes[this.index].likes;
+      if(this.pressedLikes > this.initialLikes){
+        this.initialLikes = this.pressedLikes;
+        this.finalQuoteLikes = this.initialLikes;
       }
     }
-    return this.preNum
+    return this.finalQuoteLikes
   }
 
   toggleDetails(index: any){
