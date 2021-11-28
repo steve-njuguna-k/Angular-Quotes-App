@@ -2,7 +2,7 @@
 body{
     background-color: #0D1117;
     color: #fff;
-    background-image: url("./assets/img/bg.png");
+    background-image: url("./assets/img/pbg.png");
 }
 
 a{
@@ -17,8 +17,8 @@ a:hover{
 
 .navbar{
     background-color: #0D1117;
-    border-color: #00acee;
-    background-image: url("./assets/img/bg.png");
+    border-color: #6c8eef;
+    background-image: url("./assets/img/pbg.png");
 }
 
 
@@ -27,21 +27,21 @@ a:hover{
 }
 
 .logo-colour{
-    color: #00acee;
+    color: #6c8eef;
     font-family: 'Poppins', Arial, sans-serif;
 }
 
 .hero-colour{
-    color: #00acee;
+    color: #6c8eef;
 }
 
 .btn-blue{
-    background-color: #00acee;
+    background-color: #6c8eef;
     color: #fff;
 }
 
 .btn-yellow:hover{
-    background-color: #00acee;
+    background-color: #6c8eef;
     color: #fff;
 }
 
@@ -62,7 +62,7 @@ a:hover{
 }
 
 .card-title{
-    color: #00acee;
+    color: #6c8eef;
     font-family: 'Poppins', Arial, sans-serif;
 }
 
@@ -93,7 +93,7 @@ a:hover{
 }
 
 .btn-link{
-    color: #00acee;
+    color: #6c8eef;
     text-decoration: none;
     margin-bottom: 5px;
 }
